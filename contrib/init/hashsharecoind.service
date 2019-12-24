@@ -1,0 +1,22 @@
+[Unit]
+Description=HashShareCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=hashsharecoincore
+Group=hashsharecoincore
+
+Type=forking
+PIDFile=/var/lib/hashsharecoind/hashsharecoind.pid
+ExecStart=/usr/bin/hashsharecoind -daemon -pid=/var/lib/hashsharecoind/hashsharecoind.pid \
+-conf=/etc/hashsharecoincore/hashsharecoin.conf -datadir=/var/lib/hashsharecoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

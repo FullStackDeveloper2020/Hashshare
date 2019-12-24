@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=HashShareCoin Core
+Comment=HashShareCoin P2P Cryptocurrency
+Comment[de]=Verbinde mit dem HashShareCoin peer-to-peer Netzwerk
+Comment[fr]=HashShareCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=HashShareCoin, eşten eşe kriptografik sanal para birimi
+Exec=hashsharecoin-qt %u
+Terminal=false
+Type=Application
+Icon=hashsharecoin128
+MimeType=x-scheme-handler/hashsharecoin;
+Categories=Office;Finance;

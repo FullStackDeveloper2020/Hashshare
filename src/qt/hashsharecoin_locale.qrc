@@ -1,0 +1,26 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/hashsharecoin_ar.qm</file>
+        <file alias="bg">locale/hashsharecoin_bg.qm</file>
+        <file alias="de">locale/hashsharecoin_de.qm</file>
+        <file alias="en">locale/hashsharecoin_en.qm</file>
+        <file alias="es">locale/hashsharecoin_es.qm</file>
+        <file alias="fi">locale/hashsharecoin_fi.qm</file>
+        <file alias="fr">locale/hashsharecoin_fr.qm</file>
+        <file alias="it">locale/hashsharecoin_it.qm</file>
+        <file alias="ja">locale/hashsharecoin_ja.qm</file>
+        <file alias="ko">locale/hashsharecoin_ko.qm</file>
+        <file alias="nl">locale/hashsharecoin_nl.qm</file>
+        <file alias="pl">locale/hashsharecoin_pl.qm</file>
+        <file alias="pt">locale/hashsharecoin_pt.qm</file>
+        <file alias="ru">locale/hashsharecoin_ru.qm</file>
+        <file alias="sk">locale/hashsharecoin_sk.qm</file>
+        <file alias="sv">locale/hashsharecoin_sv.qm</file>
+        <file alias="th">locale/hashsharecoin_th.qm</file>
+        <file alias="tr">locale/hashsharecoin_tr.qm</file>
+        <file alias="ua">locale/hashsharecoin_ua.qm</file>
+        <file alias="vi">locale/hashsharecoin_vi.qm</file>
+        <file alias="zh_CN">locale/hashsharecoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/hashsharecoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
