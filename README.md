@@ -25,7 +25,7 @@
 
 <table>
 <th>Block Height</th><th>Reward</th>
-<tr><td>1-200</td><td>4,02,250 HSS</td></tr>
+<tr><td>1-200</td><td>402,250 HSS</td></tr>
 </table>
 
 ### PoS Rewards Distribution
