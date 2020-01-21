@@ -1100,8 +1100,7 @@ bool WriteBlockToDisk(const CBlock& block, CDiskBlockPos& pos, const CMessageHea
 bool ReadBlockFromDisk(CBlock& block, const CDiskBlockPos& pos, const Consensus::Params& consensusParams) {
 #else
 bool ReadBlockFromDisk(CBlock& block, const CDiskBlockPos& pos, const Consensus::Params& consensusParams, const char* str) {
-    LogPrintf("ReadBlockFromDisk(CDiskBlockPos)::called by %s\n", str);
-#endif
+    #endif
     LOCK(cs_main);
     block.SetNull();
 
@@ -1129,7 +1128,6 @@ bool ReadBlockFromDisk(CBlock& block, const CDiskBlockPos& pos, const Consensus:
 bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex, const Consensus::Params& consensusParams) {
 #else
 bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex, const Consensus::Params& consensusParams, const char* str) {
-    LogPrintf("ReadBlockFromDisk(CBlockIndex)::called by %s\n", str);
 #endif
     CDiskBlockPos blockPos;
     {
@@ -2580,7 +2578,6 @@ void static UpdateTip(CBlockIndex *pindexNew, const CChainParams& chainParams) {
     strMessage += strprintf(" evodb_cache=%.1fMiB", evoDb->GetMemoryUsage() * (1.0 / (1<<20)));
     if (!warningMessages.empty())
         strMessage += strprintf(" warning='%s'", boost::algorithm::join(warningMessages, ", "));
-    LogPrintf("%s\n", strMessage);
 }
 
 /** Disconnect chainActive's tip. You probably want to call mempool.removeForReorg and manually re-limit mempool size after this, with cs_main held. */
