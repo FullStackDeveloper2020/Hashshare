@@ -321,16 +321,36 @@ public:
 		
 		
 		vSeeds.clear();
-		vSeeds.push_back(CDNSSeedData("128.199.202.220", "128.199.202.220"));
-		vSeeds.push_back(CDNSSeedData("174.138.27.83", "174.138.27.83"));
-		vSeeds.push_back(CDNSSeedData("174.138.27.45", "174.138.27.45"));
-		vSeeds.push_back(CDNSSeedData("128.199.199.86", "128.199.199.86"));
-		vSeeds.push_back(CDNSSeedData("128.199.209.42", "128.199.209.42"));
-		vSeeds.push_back(CDNSSeedData("174.138.23.93", "174.138.23.93"));
-		vSeeds.push_back(CDNSSeedData("174.138.27.59", "174.138.27.59"));
-		vSeeds.push_back(CDNSSeedData("174.138.27.192", "174.138.27.192"));
-		vSeeds.push_back(CDNSSeedData("128.199.208.146", "128.199.208.146"));
-		vSeeds.push_back(CDNSSeedData("174.138.23.77", "174.138.23.77"));
+		vSeeds.push_back(CDNSSeedData("167.86.125.204", "167.86.125.204"));
+		vSeeds.push_back(CDNSSeedData("167.86.114.56", "167.86.114.56"));
+		vSeeds.push_back(CDNSSeedData("167.86.114.32", "167.86.114.32"));
+		vSeeds.push_back(CDNSSeedData("173.212.192.145", "173.212.192.145"));
+		vSeeds.push_back(CDNSSeedData("164.68.114.26", "164.68.114.26"));
+		vSeeds.push_back(CDNSSeedData("164.68.110.252", "164.68.110.252"));
+		vSeeds.push_back(CDNSSeedData("164.68.110.158", "164.68.110.158"));
+		vSeeds.push_back(CDNSSeedData("164.68.108.122", "164.68.108.122"));
+		vSeeds.push_back(CDNSSeedData("167.86.107.151", "167.86.107.151"));
+		vSeeds.push_back(CDNSSeedData("167.86.107.33", "167.86.107.33"));
+		vSeeds.push_back(CDNSSeedData("173.212.235.90", "173.212.235.90"));
+		vSeeds.push_back(CDNSSeedData("167.86.71.208", "167.86.71.208"));
+		vSeeds.push_back(CDNSSeedData("5.189.174.179", "5.189.174.179"));
+		vSeeds.push_back(CDNSSeedData("173.212.240.33", "173.212.240.33"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:7788::1", "2a02:c207:2033:7788::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:7779::1", "2a02:c207:2033:7779::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:7777::1", "2a02:c207:2033:7777::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:6308::1", "2a02:c207:2033:6308::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:9863::1", "2a02:c207:2033:9863::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:9862::1", "2a02:c207:2033:9862::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:9861::1", "2a02:c207:2033:9861::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:9859::1", "2a02:c207:2033:9859::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:9858::1", "2a02:c207:2033:9858::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:9857::1", "2a02:c207:2033:9857::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:9856::1", "2a02:c207:2033:9856::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:9855::1", "2a02:c207:2033:9855::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:9853::1", "2a02:c207:2033:9853::1"));
+		vSeeds.push_back(CDNSSeedData("2a02:c207:2033:9852::1", "2a02:c207:2033:9852::1"));
+
+
 
 		// HSS addresses start with 'S'
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
@@ -381,12 +401,29 @@ public:
 			(7164, uint256S("0x993cc2f54fd27ab3f3da9d2edb3ae6f2df5034f4d28ec6def0c6c086675ed688"))
 			(9671, uint256S("0xe70879425a9692df98cf79a02aee7da56e69933cb646e4a64af12730f9e60c1a"))
 			(13707, uint256S("0xda06ad482814abb7ffe7b9159b2bdecfb7ade635348ee64409d9c4e8ebb31c3a"))
+			(28952, uint256S("0x34a388c2b623e5bd1309637b27fa5a770ba00e36a09293bb9c215bdcf756a4b9"))
+			(36556, uint256S("0x34b6eca350aae6600084bdd1f7b70205f6f1cc3415ba8e54540eab9f0ae72941"))
+			(36726, uint256S("0xeec72c0cf6abff515f1afca95693b8e1de3b3531f37dcfdd42105fef9e6c3cd2"))
+			(42581, uint256S("0x0445ab92e09460595b5ae09966b4fc6dcee5c9be7fdfaffc8c7a981c5e004213"))
+			(45147, uint256S("0x85c43770f404ccafa298598a1026e0eed287c70b4d6175d1eb27910f110dedea"))
+			(45622, uint256S("0x2a6c5456c8ab00b40351423b5f614392ff485b040913a4585d3fc3bb7a27bbc8"))
+			(45899, uint256S("0xe7d0f5415617fa9b5f9af5cd486c8646b564c99c384f3c340d1936643d179dbd"))
+			(51747, uint256S("0xb093ee65de1e0c94b349ce3601ab9d6a50443841bdda0ec5dcfe8e361590a3b6"))
+			(54905, uint256S("0x4becf0da4bcc692d3ebc1803595373bcb29c190b01d95d872f2eda9b46788b50"))
+			(55592, uint256S("0x15edeb54fbaf7ea131554324747b7b3a1572338ad2ee74215cf67c0d28d1d042"))
+			(58116, uint256S("0xa6a776f69790c204af5c4962a4b068b2c763029440d74f7845329efdbb16e28b"))
+			(58117, uint256S("0xfbf4d84ec89831771271577600a5606fc34aa7d09ad6b4f96db8c0a869b509c2"))
+			(58489, uint256S("0x6739e2047d8445f17d50d554457fdc2e24b2f7744a5abf1101aa6cf53739a36c"))
+			(60524, uint256S("0xbf2c00606efa4b338f37c14c6df5f54da34bfe5e9992779d88ed16436b6a1ce3"))
+			(63844, uint256S("0x168d047d75ee3736b5daa873fe1630fc0e9a1a0af6ed12968febcb42b8f6515c"))
+			(64089, uint256S("0x47db263688dd2e1550c2f6c4e7a05091a088f11f5124b7406b9f2a6d1e4cae38"))
+			(64237, uint256S("0xd12b34b762589c8ab350e7c84257d23b98332c1024bf5be1c8d03f867603b9cc"))
 
 		};
 
 		chainTxData = ChainTxData{
-			1577096717, // * UNIX timestamp of last known number of transactions
-			30484,    // * total number of transactions between genesis and that timestamp
+			1580293241, // * UNIX timestamp of last known number of transactions
+			65203,    // * total number of transactions between genesis and that timestamp
 						//   (the tx=... number in the SetBestChain debug.log lines)
 						0.1         // * estimated number of transactions per second after that timestamp
 		};
